@@ -1,0 +1,72 @@
+body {
+  background-image: url("/public/img/pattern.jpg");
+}
+
+header {
+  justify-content: space-between;
+  display: flex;
+  background-color: #fbc1c9;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 11px;
+  border-radius: 8px;
+}
+
+article a {
+  text-decoration: none;
+}
+
+#logo {
+  padding-left: 6px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  border-bottom: 2px solid #803a7c;
+  padding: 11px;
+}
+
+ul {
+  list-style-type: none;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 0px;
+  display: inline-table;
+}
+
+li {
+  float: left;
+  display: block;
+  top: 5px;
+  width: 85px;
+  color: black;
+  font-size: 17px;
+}
+
+li:hover {
+  color: rgb(190, 43, 146);
+}
+
+section {
+  border-radius: 30px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 23px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 23px;
+  border: 1px solid black;
+}
+
+footer {
+  float: center;
+  text-align: center;
+  color: white;
+  display: block;
+  padding: 15px;
+  background-color: #0d0d0d;
+}
